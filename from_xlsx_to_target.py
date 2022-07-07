@@ -1,3 +1,5 @@
+#注释:
+#这个脚本是从文件夹中遍历xls或者xlsx文件,从中寻找特定的目标
 import pandas
 import sys
 import os
