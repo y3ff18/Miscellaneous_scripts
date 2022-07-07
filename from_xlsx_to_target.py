@@ -19,4 +19,6 @@ def read_file(file):
 
 for paths,dirs,files in os.walk(parse.path):
     for file in files:
-        read_file(file=file)
+        print()
+        if "xls" in file[-5:-1] or "xlsx" in file[-5:-1]:
+            read_file(file=file)
